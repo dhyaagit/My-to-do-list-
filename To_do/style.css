@@ -66,12 +66,10 @@ body{
 .addBtn{
     background-color: transparent;
     border:none;
-
 }
 .addBtn:hover{
    cursor:pointer;
 }
-
 /* in oreder to make the checkbox and the task written with a space between them and manipulate their palce */
 .newTask{
     display:flex;
@@ -115,8 +113,6 @@ body{
     display:none;
     
 }
-
- 
 .clearBtn {
     --width: 100px;
     --height: 35px;
@@ -135,15 +131,11 @@ body{
     transition: background 0.3s;
     margin-top: 5px;
 }
-  
-  
-  
   .text {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
   .button-wrapper,.text,.icon {
     overflow: hidden;
     position: absolute;
@@ -152,15 +144,12 @@ body{
     left: 0;
     color: #fff;
   }
-  
   .text {
     top: 0
   }
-  
   .text,.icon {
     transition: top 0.5s;
   }
-  
   .icon {
     color: #fff;
     top: 100%;
@@ -168,46 +157,29 @@ body{
     align-items: center;
     justify-content: center;
   }
-  
   .icon i{
     width: 24px;
     height: 24px;
   }
-  
   .clearBtn:hover {
     background: #6213e9;
   }
-  
   .clearBtn:hover .text {
     top: -100%;
   }
-  
   .clearBtn:hover .icon {
     top: 0;
   }
-  
   .clearBtn:hover:before,.clearBtn:hover:after {
     opacity: 1;
     visibility: visible;
   }
-  
   .clearBtn:hover:after {
     bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 20px);
   }
-  
   .clearBtn:hover:before {
     bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
   }
-  
-
-
-
-
-
-
-
-
-
 input[type="checkbox"]{
    height:20px;
    outline:none;
@@ -224,7 +196,6 @@ input[type="checkbox"]{
     width:50px;
     height:auto;
 }
-
 .deleteTask{
     border-radius:20px;
     outline: none;
@@ -246,13 +217,10 @@ input[type="checkbox"]{
         width:19rem
     }
     .container{
-        /* width:500px; */
         padding:0;
         width:90%;
         height:auto;
     }
-    
-
 }
 @media screen and (min-width: 1000px) {
     .checkTask{
